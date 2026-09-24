@@ -19,7 +19,7 @@ scale_to_range <- function(x, a, b) {
   a + ((x - min(x)) * (b - a)) / (max(x) - min(x))
 }
 #### prepare data ####
-setwd("~/Desktop/Graduate Work /Research /Project 1/Code")
+setwd("")
 tech_stocks = c("MSFT", "INTC", "IBM",   "CSCO",  "GOOGL", "AAPL",  "ORCL",  "HPQ", "NOK","TXN",   "SONY",  "QCOM",  "EBAY",  "SAP","ADBE",  "AMZN", "ERIC",   "NVDA", 
                 "BB",  "BIDU",   "TSM", "AKAM", "CRM", "MU", "STX", "WDC", "AMD", "LPL", "NTDOY", "MRVL")
 daily_data = read.csv("F-F_Research_Data_Factors_daily.csv")
