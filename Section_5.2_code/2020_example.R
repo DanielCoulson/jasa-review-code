@@ -22,7 +22,7 @@ scale_to_range <- function(x, a, b) {
 }
 
 #### prepare data ####
-setwd("~/Desktop/Graduate Work /Research /Project 1/Code")
+setwd("")
 tech_stocks =  c("AAPL", "MSFT", "NVDA", "AMZN", "GOOG", "META", "TSM", "AVGO", "TSLA", "ORCL","ASML", "NFLX", "SAP", "AMD", "CRM", "ADBE", "CSCO","IBM" , "QCOM","INTU", "TXN","NOW" , "BABA", "PANW", "ADI", "MU", "LRCX", "INFY","DELL", "INTC")
 daily_data = read.csv("F-F_Research_Data_Factors_daily.csv")
 daily_data = daily_data[24393:25649,]
