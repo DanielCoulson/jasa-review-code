@@ -6,6 +6,7 @@ This repository contains code for the submitted manuscript.
 
 - `Section_5.1_code/`: code for Section 5.1
 - `Section_5.2_code/`: code for Section 5.2
+- `Supplement code/`: code for the supplement
 - `DSP-MFSV-CAPM.R`: main R script
 
 ## How to run
